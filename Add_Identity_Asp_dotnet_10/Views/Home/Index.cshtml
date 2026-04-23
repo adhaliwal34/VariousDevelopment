@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using <ProjectName>.Entities
+@inject SignInManager<AppUser> SignInManager
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div>
+        <h1 class="display-4">Welcome</h1>
+    </div>
+}

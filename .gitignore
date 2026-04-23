@@ -36,7 +36,6 @@ msbuild.wrn
 # Visual Studio 20xx
 .vs/
 
-appsettings.*
 [Pp]roperties/
 
 # Logs
